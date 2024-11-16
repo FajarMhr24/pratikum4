@@ -95,7 +95,7 @@ print("=" * 64)
 ```
 - Menambahkan garis pemisah akhir tabel.
 
-## Flowchar
+## Flowchart
 
 ![foto](https://github.com/FajarMhr24/flochart/blob/eef2ad011054e6f13cdd35e917e4349b67155329/Screenshot%202024-11-14%20200537.png)
 
