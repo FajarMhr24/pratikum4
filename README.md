@@ -8,13 +8,13 @@ KELAS : TI.24.A5
 
 ## penjelasan kode program
 
-```
+```python
 nilai_data = []
 ```
 - Variabel `nilai_data` adalah sebuah list kosong yang akan digunakan untuk menyimpan data mahasiswa berupa dictionary.
 
 ### input data
-```
+```python
 nama = input("Masukkan nama anda: ")
 nim = input("Masukkan NIM anda: ")
 tugas = float(input("Masukkan nilai tugas: "))
@@ -29,7 +29,7 @@ uas = float(input("Masukkan nilai UAS: "))
 
 ### Menghitung nilai akhir 
 
-```
+```python
 nilai_akhir = (tugas * 3 + uts * 3.5 + uas * 3.5) / 10
 ```
 
@@ -45,7 +45,7 @@ nilai_akhir = (tugas * 3 + uts * 3.5 + uas * 3.5) / 10
     (tugas×3)+(uts×3.5)+(uas×3.5)
 
 ### Menyimpan data
-```
+```python
 data_mahasiswa = {
     "nama": nama,
     "nim": nim,
@@ -63,7 +63,7 @@ nilai_data.append(data_mahasiswa)
 
  ### Cek perulangan
 
- ```
+ ```python
 tambah_data = input("Tambah Data Lagi? (y/t): ").lower()
 if tambah_data == 't':
     break
@@ -73,7 +73,7 @@ if tambah_data == 't':
     - Jika `t`, perulangan dihentikan menggunakan `break`.
 
 ### Header tabel
-```
+```python
 print("No | Nama\t|    NIM    | Tugas | UTS | UAS |  Nilai Akhir |")
 print("=" * 64)
 ```
@@ -81,7 +81,7 @@ print("=" * 64)
 
 ### Menampilkan data 
 
-```
+```python
 for i, data in enumerate(nilai_data, start=1):
     print(f"{i}  | {data['nama']}\t| {data['nim']} | {data['tugas']}  | {data['uts']}| {data['uas']}| {data['nilai_akhir']:.2f}        |")
 ```
