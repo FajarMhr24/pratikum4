@@ -101,7 +101,7 @@ print("=" * 64)
 
 ## output
 
-![foto](https://github.com/FajarMhr24/foto/blob/3c903c3a53a4ee32a84e622baeeaaac329d12e50/Screenshot%202024-11-14%20201753.png)
+![foto](https://github.com/FajarMhr24/foto/blob/401b430c11f856b56ceaf2f1edd39c6405c377f2/Screenshot%202024-11-14%20201753.png)
 
 ​
  
